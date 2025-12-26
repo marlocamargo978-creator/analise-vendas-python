@@ -14,4 +14,4 @@ Este projeto é uma análise de dados simples desenvolvida como parte dos meus e
 3. Gera um gráfico de barras visualizando o desempenho semanal.
 
 ## Desafios superados
-Este projeto foi configurado em um hardware legado (Atom D525), exigindo gerenciamento avançado de dependencias e ambientes virtuais para rodar bibliotecas modernas de Data science.
+Este projeto foi configurado em um hardware legado (Atom D525), exigindo gerenciamento avançado de dependencias e ambientes virtuais para rodar bibliotecas modernas de Data science. 
