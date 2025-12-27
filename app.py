@@ -11,9 +11,9 @@ try:
     
     #Mostrando a tabela
     st.subheader("Visão geral dos dados")
-    st.dataframe(df)
-
+    st.dataframe(df, hide_index=True)
     st.subheader("Vendas por dia da semana")
+    
     coluna_texto = "Dia"
 
     if coluna_texto in df.columns:
