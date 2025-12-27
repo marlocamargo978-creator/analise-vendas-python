@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt 
 
-st.set_page_config(page_title="Relatorio de vendas", layoute="wide")
+st.set_page_config(page_title="Relatorio de vendas", layout="wide")
 
 #Tentativa de carregamento dos dados
 try:
