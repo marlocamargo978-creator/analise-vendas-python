@@ -20,7 +20,12 @@ try:
         dados_grafico = df.set_index(coluna_texto)
 
     else:
-        st.error(f"Não encontrei a coluna '{coluna_texto}' no CSV.")
+     st.error(f"Não encontrei a coluna '{coluna_texto}' no CSV.")
     
+     #Cria um grafico simples se houver colunas numericas
+
+    st.bar_chart(df.select_dtypes(include=['float', 'int']))
+
+
 except FileNotFoundError:
     st.error("Erro: O arquivo 'vendas.csv' nao foi encontrado na pasta")
