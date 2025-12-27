@@ -25,8 +25,5 @@ try:
     
      #Cria um grafico simples se houver colunas numericas
 
-    st.bar_chart(df.select_dtypes(include=['float', 'int']))
-
-
 except FileNotFoundError:
     st.error("Erro: O arquivo 'vendas.csv' nao foi encontrado na pasta")
