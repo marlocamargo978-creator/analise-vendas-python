@@ -18,6 +18,7 @@ try:
 
     if coluna_texto in df.columns:
         dados_grafico = df.set_index(coluna_texto)
+        st.ba_chart(dados_grafico)
 
     else:
      st.error(f"Não encontrei a coluna '{coluna_texto}' no CSV.")
