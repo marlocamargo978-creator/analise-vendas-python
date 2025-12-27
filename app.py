@@ -20,4 +20,3 @@ try:
 
 except FileNotFoundError:
     st.error("Erro: O arquivo 'vendas.csv' nao foi encontrado na pasta")
-
