@@ -12,6 +12,9 @@ try:
     st.subheader("Visão geral dos dados")
     st.dataframe(df.head())
     
+     #Cria um grafico simples se houver colunas numericas
+    st.bar_chart(df.select_dtypes(include=['float', 'int']))
+    
     st.subheader("Vendas por categoria/produto")
     
 
